@@ -1,0 +1,143 @@
+[
+    {
+        "command": "CreateEntity",
+      	"params": {
+      	    "type": "drone",
+            "name": "Drone",
+      	    "mesh": "assets/model/drone.glb",
+      	    "position": [498.292, 270, -228.623],
+      	    "scale": [0.1, 0.1, 0.1],
+      	    "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 30.0,
+            "radius": 1.0,
+      	    "start": 2.0,
+      	    "duration": 2.0,
+            "offset": [0, 0.6, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+      	    "type": "human",
+            "name": "Human-OG",
+      	    "mesh": "assets/model/human.glb",
+      	    "position": [498.292, 270, -228.623],
+      	    "scale": [0.005, 0.005, 0.005],
+      	    "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 10.0,
+            "radius": 1.0,
+      	    "start": 2.0,
+      	    "duration": 2.0,
+            "offset": [0, -0.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "helicopter",
+            "name": "Helicopter",
+            "mesh": "assets/model/helicopter.glb",
+            "position": [498.292, 550, -228.623],
+            "scale": [0.025, 0.025, 0.025],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 50.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "battery",
+            "name": "Battery-1",
+            "mesh": "assets/model/battery.glb",
+            "position": [-846, 230, -226],
+            "scale": [0.8, 0.8, 0.8],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 0.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "battery",
+            "name": "Battery-2",
+            "mesh": "assets/model/battery.glb",
+            "position": [-502, 230, 799],
+            "scale": [0.8, 0.8, 0.8],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 0.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "battery",
+            "name": "Battery-3",
+            "mesh": "assets/model/battery.glb",
+            "position": [454, 230, -155],
+            "scale": [0.8, 0.8, 0.8],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 0.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "battery",
+            "name": "Battery-4",
+            "mesh": "assets/model/battery.glb",
+            "position": [1166, 230, -468],
+            "scale": [0.8, 0.8, 0.8],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 0.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "CreateEntity",
+      	"params": {
+            "type": "battery",
+            "name": "Battery-5",
+            "mesh": "assets/model/battery.glb",
+            "position": [1160, 230, 575],
+            "scale": [0.8, 0.8, 0.8],
+            "rotation": [0, 0, 0, 0],
+            "direction": [1,0,0],
+            "speed": 0.0,
+            "offset": [0, 1.5, 0]
+    	  }
+    },
+    {
+        "command": "SetScene",
+        "params": {
+            "type": "scene",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "mesh": "assets/model/umn.obj",
+            "texture": "assets/texture/umn.png",
+            "position": [-1.5,-13,-1.5],
+            "scale": [0.05,0.05,0.05]
+        }
+    },
+    {
+        "command": "AddMesh",
+        "params": {
+            "type": "route",
+            "mesh": "assets/model/routes.obj",
+            "position": [-0.0,-12.5,-0.0],
+            "scale": [0.0705,0.05,0.0705],
+            "color": "0xff00e1"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+<map id="IStrategy" name="IStrategy">
+<area shape="rect" id="node1" title="Strategy interface." alt="" coords="196,5,277,32"/>
+<area shape="rect" id="node2" href="$classBeelineStrategy.html" title="this class inhertis from the IStrategy class and is responsible for generating the beeline that the d..." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$classCelebrationDecorator.html" title="this class inhertis from the IStrategy class and is represents a celebration decorator where the enti..." alt="" coords="156,80,317,107"/>
+<area shape="rect" id="node6" href="$classPathStrategy.html" title="this class inhertis from the IStrategy class and is represents a movement strategy where the entity s..." alt="" coords="395,80,502,107"/>
+<area shape="rect" id="node4" href="$classJumpDecorator.html" title="this class inhertis from the IStrategy class and is represents a celebration decorator where the enti..." alt="" coords="36,155,155,181"/>
+<area shape="rect" id="node5" href="$classSpinDecorator.html" title="this class inhertis from the IStrategy class and is represents a celebration decorator where the enti..." alt="" coords="179,155,294,181"/>
+<area shape="rect" id="node7" href="$classAstarStrategy.html" title="this class inhertis from the PathStrategy class and is responsible for generating the astar path that..." alt="" coords="319,155,429,181"/>
+<area shape="rect" id="node8" href="$classDfsStrategy.html" title="this class inhertis from the PathStrategy class and is responsible for generating the depth first sea..." alt="" coords="454,155,553,181"/>
+<area shape="rect" id="node9" href="$classDijkstraStrategy.html" title="this class inhertis from the PathStrategy class and is responsible for generating the dijkstra path t..." alt="" coords="577,155,705,181"/>
+</map>

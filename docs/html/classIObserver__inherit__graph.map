@@ -1,0 +1,6 @@
+<map id="IObserver" name="IObserver">
+<area shape="rect" id="node1" title="IObserver to print message to observer." alt="" coords="167,5,252,32"/>
+<area shape="rect" id="node2" href="$classDroneObserver.html" title="Observer for Drone." alt="" coords="5,80,125,107"/>
+<area shape="rect" id="node3" href="$classRobotObserver.html" title="Observer for Robot." alt="" coords="150,80,269,107"/>
+<area shape="rect" id="node4" href="$classUFObserver.html" title="Observer for UFO." alt="" coords="293,80,392,107"/>
+</map>

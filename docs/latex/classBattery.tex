@@ -1,0 +1,270 @@
+\hypertarget{classBattery}{}\doxysection{Battery Class Reference}
+\label{classBattery}\index{Battery@{Battery}}
+
+
+The station for drone to charge on map.  
+
+
+
+
+{\ttfamily \#include $<$Battery.\+h$>$}
+
+
+
+Inheritance diagram for Battery\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classBattery__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Battery\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classBattery__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBattery_ae105d2774b00e79449e894bcbfdf8aa6}{Battery}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBattery}{Battery}} are created with a name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBattery_a637d8766eb5cbdb33ab2a19a30622bc3}\label{classBattery_a637d8766eb5cbdb33ab2a19a30622bc3}} 
+\mbox{\hyperlink{classBattery_a637d8766eb5cbdb33ab2a19a30622bc3}{$\sim$\+Battery}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classBattery}{Battery}} object. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classBattery_a53d93616419ed533a515c0879be92a78}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Gets the speed of the battery. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBattery_a663135224fffa67d99ebca94e20c8f14}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the position of the battery. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBattery_a7cdf643529a636c520c818021a53f52a}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Gets the direction of the battery. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBattery_aca0cff331b794fcc81c36632b60539ee}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Gets the destination of the battery. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classBattery_ab1b1a6aa8931910ac3bdeaf1cce28731}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Gets the details information of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBattery_ad334ae13ad2d8ab4b8910a0205bb5f27}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the battery\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBattery_a344e7a1e1ad3098e717226d55058b88b}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the position of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBattery_a254fc908b076cd17d7809682a5a55ce1}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the direction of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBattery_a384c9d1386f9bde106fa90eca9e901a0}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the destination of the battery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBattery_a1d1ef2c6243d9a559307caa51a90a242}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotates the battery. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The station for drone to charge on map. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBattery_ae105d2774b00e79449e894bcbfdf8aa6}\label{classBattery_ae105d2774b00e79449e894bcbfdf8aa6}} 
+\index{Battery@{Battery}!Battery@{Battery}}
+\index{Battery@{Battery}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{Battery()}{Battery()}}
+{\footnotesize\ttfamily Battery\+::\+Battery (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classBattery}{Battery}} are created with a name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & J\+S\+ON object containing the battery\textquotesingle{}s information \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBattery_aca0cff331b794fcc81c36632b60539ee}\label{classBattery_aca0cff331b794fcc81c36632b60539ee}} 
+\index{Battery@{Battery}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Battery\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the destination of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The destination of the battery 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_ab1b1a6aa8931910ac3bdeaf1cce28731}\label{classBattery_ab1b1a6aa8931910ac3bdeaf1cce28731}} 
+\index{Battery@{Battery}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Battery\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the details information of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The details information of the battery 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a7cdf643529a636c520c818021a53f52a}\label{classBattery_a7cdf643529a636c520c818021a53f52a}} 
+\index{Battery@{Battery}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Battery\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the direction of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The direction of the battery 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a663135224fffa67d99ebca94e20c8f14}\label{classBattery_a663135224fffa67d99ebca94e20c8f14}} 
+\index{Battery@{Battery}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Battery\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the position of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The position of the battery 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a53d93616419ed533a515c0879be92a78}\label{classBattery_a53d93616419ed533a515c0879be92a78}} 
+\index{Battery@{Battery}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Battery\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the speed of the battery. 
+
+\begin{DoxyReturn}{Returns}
+The speed of the battery 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a1d1ef2c6243d9a559307caa51a90a242}\label{classBattery_a1d1ef2c6243d9a559307caa51a90a242}} 
+\index{Battery@{Battery}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Battery\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotates the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle by which the battery should be rotated \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a4c109baa4179c28422623a7d3b2e9f82}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a384c9d1386f9bde106fa90eca9e901a0}\label{classBattery_a384c9d1386f9bde106fa90eca9e901a0}} 
+\index{Battery@{Battery}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Battery\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the destination of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & The new destination of the battery \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a254fc908b076cd17d7809682a5a55ce1}\label{classBattery_a254fc908b076cd17d7809682a5a55ce1}} 
+\index{Battery@{Battery}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Battery\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the direction of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & The new direction of the battery \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_a344e7a1e1ad3098e717226d55058b88b}\label{classBattery_a344e7a1e1ad3098e717226d55058b88b}} 
+\index{Battery@{Battery}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Battery\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the position of the battery. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & The new position of the battery \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBattery_ad334ae13ad2d8ab4b8910a0205bb5f27}\label{classBattery_ad334ae13ad2d8ab4b8910a0205bb5f27}} 
+\index{Battery@{Battery}!Update@{Update}}
+\index{Update@{Update}!Battery@{Battery}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Battery\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Updates the battery\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Delta time \\
+\hline
+{\em scheduler} & Vector containing all the entities in the system \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a9a8e8588fd85c7b0d813d60686d4dc2c}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Battery.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Battery.\+cc\end{DoxyCompactItemize}

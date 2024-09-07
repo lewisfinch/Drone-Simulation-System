@@ -1,0 +1,165 @@
+\hypertarget{classSimulationModel}{}\doxysection{Simulation\+Model Class Reference}
+\label{classSimulationModel}\index{SimulationModel@{SimulationModel}}
+
+
+Class \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}} handling the transit simulation. it can communicate with the controller.  
+
+
+
+
+{\ttfamily \#include $<$Simulation\+Model.\+h$>$}
+
+
+
+Collaboration diagram for Simulation\+Model\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classSimulationModel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSimulationModel_adf36c1575bfba5c56cc5d27dcaed7691}\label{classSimulationModel_adf36c1575bfba5c56cc5d27dcaed7691}} 
+\mbox{\hyperlink{classSimulationModel_adf36c1575bfba5c56cc5d27dcaed7691}{Simulation\+Model}} (\mbox{\hyperlink{classIController}{I\+Controller}} \&controller)
+\begin{DoxyCompactList}\small\item\em Default constructor that create the \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSimulationModel_ad7ea1a37e0992bc0704ac5cb01a59bf4}\label{classSimulationModel_ad7ea1a37e0992bc0704ac5cb01a59bf4}} 
+\mbox{\hyperlink{classSimulationModel_ad7ea1a37e0992bc0704ac5cb01a59bf4}{$\sim$\+Simulation\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSimulationModel_a7595badfb368bcf5673f98b3f229dc0f}{Set\+Graph}} (const I\+Graph $\ast$graph)
+\begin{DoxyCompactList}\small\item\em Set the Graph for the \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSimulationModel_a0529fb427560a2bde9b8cb62f82e6baf}{Create\+Entity}} (Json\+Object \&entity)
+\begin{DoxyCompactList}\small\item\em Creates a new simulation entitiy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSimulationModel_a68a4d4927ec49f6f362f7bfb07a96ddc}{Schedule\+Trip}} (Json\+Object \&details)
+\begin{DoxyCompactList}\small\item\em Schedule a trip for an object in the scene. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSimulationModel_a11bcf4e77e59d5c59f975d4faf5a1bde}\label{classSimulationModel_a11bcf4e77e59d5c59f975d4faf5a1bde}} 
+void \mbox{\hyperlink{classSimulationModel_a11bcf4e77e59d5c59f975d4faf5a1bde}{Purge}} ()
+\begin{DoxyCompactList}\small\item\em Use \mbox{\hyperlink{classUFO}{U\+FO}} to clear all entites on map. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSimulationModel_ad409c5965a777ef636114eeef8f9ea48}{Update}} (double dt)
+\begin{DoxyCompactList}\small\item\em Update the simulation. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSimulationModel_a44215da18f82ad591ead5085f6da13f0}{Add\+Factory}} (\mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}} $\ast$factory)
+\begin{DoxyCompactList}\small\item\em Add new factory into the simulation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSimulationModel_a3f40b73fbdec1736875da2e6eddd767d}\label{classSimulationModel_a3f40b73fbdec1736875da2e6eddd767d}} 
+\mbox{\hyperlink{classIController}{I\+Controller}} \& {\bfseries controller}
+\item 
+\mbox{\Hypertarget{classSimulationModel_aef1767ebb1cba97abb1327152b56b9b5}\label{classSimulationModel_aef1767ebb1cba97abb1327152b56b9b5}} 
+std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ {\bfseries entities}
+\item 
+\mbox{\Hypertarget{classSimulationModel_a6bc7f06bacbafeaa530223e03f4ee566}\label{classSimulationModel_a6bc7f06bacbafeaa530223e03f4ee566}} 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ {\bfseries ufo}
+\item 
+\mbox{\Hypertarget{classSimulationModel_ae3a085ca8d1dfa63f79aa57bb0598e52}\label{classSimulationModel_ae3a085ca8d1dfa63f79aa57bb0598e52}} 
+std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ {\bfseries scheduler}
+\item 
+\mbox{\Hypertarget{classSimulationModel_afcef95308f9d635f6ab37f8fb0eb7ba7}\label{classSimulationModel_afcef95308f9d635f6ab37f8fb0eb7ba7}} 
+const I\+Graph $\ast$ {\bfseries graph}
+\item 
+\mbox{\Hypertarget{classSimulationModel_aef89ec45aa188da7b9d7afa10320294f}\label{classSimulationModel_aef89ec45aa188da7b9d7afa10320294f}} 
+\mbox{\hyperlink{classCompositeFactory}{Composite\+Factory}} $\ast$ {\bfseries comp\+Factory}
+\item 
+\mbox{\Hypertarget{classSimulationModel_a5c189ec017531edaf2f008c252ff1e72}\label{classSimulationModel_a5c189ec017531edaf2f008c252ff1e72}} 
+bool {\bfseries purge}
+\item 
+\mbox{\Hypertarget{classSimulationModel_a2fbf99c0f2860887b3229628abbabeec}\label{classSimulationModel_a2fbf99c0f2860887b3229628abbabeec}} 
+std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ {\bfseries targets}
+\item 
+\mbox{\Hypertarget{classSimulationModel_a639711193a13b97f10ae56e638c5155d}\label{classSimulationModel_a639711193a13b97f10ae56e638c5155d}} 
+std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ {\bfseries stations}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}} handling the transit simulation. it can communicate with the controller. 
+
+Simulation Model handling the transit simulation. The model can communicate with the controller. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSimulationModel_a44215da18f82ad591ead5085f6da13f0}\label{classSimulationModel_a44215da18f82ad591ead5085f6da13f0}} 
+\index{SimulationModel@{SimulationModel}!AddFactory@{AddFactory}}
+\index{AddFactory@{AddFactory}!SimulationModel@{SimulationModel}}
+\doxysubsubsection{\texorpdfstring{AddFactory()}{AddFactory()}}
+{\footnotesize\ttfamily void Simulation\+Model\+::\+Add\+Factory (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}} $\ast$}]{factory }\end{DoxyParamCaption})}
+
+
+
+Add new factory into the simulation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em factory} & -\/ Factory to add into the simulation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSimulationModel_a0529fb427560a2bde9b8cb62f82e6baf}\label{classSimulationModel_a0529fb427560a2bde9b8cb62f82e6baf}} 
+\index{SimulationModel@{SimulationModel}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!SimulationModel@{SimulationModel}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily void Simulation\+Model\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})}
+
+
+
+Creates a new simulation entitiy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Type Json\+Object contain the entity\textquotesingle{}s reference to decide which entnity to create \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSimulationModel_a68a4d4927ec49f6f362f7bfb07a96ddc}\label{classSimulationModel_a68a4d4927ec49f6f362f7bfb07a96ddc}} 
+\index{SimulationModel@{SimulationModel}!ScheduleTrip@{ScheduleTrip}}
+\index{ScheduleTrip@{ScheduleTrip}!SimulationModel@{SimulationModel}}
+\doxysubsubsection{\texorpdfstring{ScheduleTrip()}{ScheduleTrip()}}
+{\footnotesize\ttfamily void Simulation\+Model\+::\+Schedule\+Trip (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{details }\end{DoxyParamCaption})}
+
+
+
+Schedule a trip for an object in the scene. 
+
+Schedules a trip for an object in the scene.
+
+
+\begin{DoxyParams}{Parameters}
+{\em details} & Type Json\+Object contain the entity\textquotesingle{}s reference to schedule the detail of the trip being scheduled \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSimulationModel_a7595badfb368bcf5673f98b3f229dc0f}\label{classSimulationModel_a7595badfb368bcf5673f98b3f229dc0f}} 
+\index{SimulationModel@{SimulationModel}!SetGraph@{SetGraph}}
+\index{SetGraph@{SetGraph}!SimulationModel@{SimulationModel}}
+\doxysubsubsection{\texorpdfstring{SetGraph()}{SetGraph()}}
+{\footnotesize\ttfamily void Simulation\+Model\+::\+Set\+Graph (\begin{DoxyParamCaption}\item[{const I\+Graph $\ast$}]{graph }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the Graph for the \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & Type I\+Graph$\ast$ contain the new graph for \mbox{\hyperlink{classSimulationModel}{Simulation\+Model}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSimulationModel_ad409c5965a777ef636114eeef8f9ea48}\label{classSimulationModel_ad409c5965a777ef636114eeef8f9ea48}} 
+\index{SimulationModel@{SimulationModel}!Update@{Update}}
+\index{Update@{Update}!SimulationModel@{SimulationModel}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Simulation\+Model\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt }\end{DoxyParamCaption})}
+
+
+
+Update the simulation. 
+
+Updates the simulation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Type double contain the time since update was last called. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Simulation\+Model.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Simulation\+Model.\+cc\end{DoxyCompactItemize}

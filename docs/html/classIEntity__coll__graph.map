@@ -1,0 +1,4 @@
+<map id="IEntity" name="IEntity">
+<area shape="rect" id="node1" title="Represents an entity in a physical system." alt="" coords="11,80,75,107"/>
+<area shape="rect" id="node2" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="5,5,80,32"/>
+</map>

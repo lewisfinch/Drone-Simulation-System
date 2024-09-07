@@ -1,0 +1,61 @@
+\hypertarget{classIEntityFactory}{}\doxysection{I\+Entity\+Factory Class Reference}
+\label{classIEntityFactory}\index{IEntityFactory@{IEntityFactory}}
+
+
+Composite Factory Interface.  
+
+
+
+
+{\ttfamily \#include $<$I\+Entity\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for I\+Entity\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classIEntityFactory__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}\label{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}} 
+virtual \mbox{\hyperlink{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}{$\sim$\+I\+Entity\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}} class. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{Create\+Entity}} (Json\+Object \&entity)=0
+\begin{DoxyCompactList}\small\item\em Creates entity using the given J\+S\+ON object, if possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Composite Factory Interface. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}\label{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}} 
+\index{IEntityFactory@{IEntityFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!IEntityFactory@{IEntityFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classIEntity}{I\+Entity}}$\ast$ I\+Entity\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Creates entity using the given J\+S\+ON object, if possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & -\/ Json\+Object to be used to create the new entity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity that was created if it was created successfully, or a nullpointer if creation failed. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classBatteryFactory_a403a600c87ce7a3dc47047e531b99bd7}{Battery\+Factory}}, \mbox{\hyperlink{classDroneFactory_ad0d77279eacf09e49c990b7d2a86e74e}{Drone\+Factory}}, \mbox{\hyperlink{classHelicopterFactory_abd76c809755d46d0f3266539d597c7fb}{Helicopter\+Factory}}, \mbox{\hyperlink{classHumanFactory_ad909d7cd13fdaabe0734666378b15437}{Human\+Factory}}, \mbox{\hyperlink{classRobotFactory_ad2ceb080af7357b641332a237ae74959}{Robot\+Factory}}, \mbox{\hyperlink{classUFOFactory_a38d75adc7f3aaaebfcc5c17317c64348}{U\+F\+O\+Factory}}, and \mbox{\hyperlink{classCompositeFactory_a46a24b2fa2e5c077bd140b7075f61ff9}{Composite\+Factory}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/I\+Entity\+Factory.\+h\end{DoxyCompactItemize}

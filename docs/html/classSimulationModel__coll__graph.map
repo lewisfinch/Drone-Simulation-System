@@ -1,0 +1,8 @@
+<map id="SimulationModel" name="SimulationModel">
+<area shape="rect" id="node1" title="Class SimulationModel handling the transit simulation. it can communicate with the controller." alt="" coords="103,171,235,197"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="11,81,75,108"/>
+<area shape="rect" id="node3" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node4" href="$classCompositeFactory.html" title="Factory method for composite class. Inherits from IEntityFactory." alt="" coords="99,81,239,108"/>
+<area shape="rect" id="node5" href="$classIEntityFactory.html" title="Composite Factory Interface." alt="" coords="113,5,225,32"/>
+<area shape="rect" id="node6" href="$classIController.html" title="class for IController used for transit service. Uses the Model View" alt="" coords="264,81,355,108"/>
+</map>

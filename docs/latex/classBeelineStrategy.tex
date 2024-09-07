@@ -1,0 +1,108 @@
+\hypertarget{classBeelineStrategy}{}\doxysection{Beeline\+Strategy Class Reference}
+\label{classBeelineStrategy}\index{BeelineStrategy@{BeelineStrategy}}
+
+
+this class inhertis from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the beeline that the drone will take.  
+
+
+
+
+{\ttfamily \#include $<$Beeline\+Strategy.\+h$>$}
+
+
+
+Inheritance diagram for Beeline\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classBeelineStrategy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Beeline\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classBeelineStrategy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBeelineStrategy_a5672d5a2f179ccde216e46ca1ee2281d}{Beeline\+Strategy}} (\mbox{\hyperlink{classVector3}{Vector3}} position, \mbox{\hyperlink{classVector3}{Vector3}} destination)
+\begin{DoxyCompactList}\small\item\em Construct a new Beeline Strategy object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBeelineStrategy_ab8d3f5b05d5e9dd06465f5fc4cd4767e}{Move}} (\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$entity, double dt)
+\begin{DoxyCompactList}\small\item\em Move toward next position. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBeelineStrategy_a648eae389f7844f210ac267313ef6233}{Is\+Completed}} ()
+\begin{DoxyCompactList}\small\item\em Check if the trip is completed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class inhertis from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the beeline that the drone will take. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBeelineStrategy_a5672d5a2f179ccde216e46ca1ee2281d}\label{classBeelineStrategy_a5672d5a2f179ccde216e46ca1ee2281d}} 
+\index{BeelineStrategy@{BeelineStrategy}!BeelineStrategy@{BeelineStrategy}}
+\index{BeelineStrategy@{BeelineStrategy}!BeelineStrategy@{BeelineStrategy}}
+\doxysubsubsection{\texorpdfstring{BeelineStrategy()}{BeelineStrategy()}}
+{\footnotesize\ttfamily Beeline\+Strategy\+::\+Beeline\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{position,  }\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{destination }\end{DoxyParamCaption})}
+
+
+
+Construct a new Beeline Strategy object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & Starting position \\
+\hline
+{\em destination} & End destination \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBeelineStrategy_a648eae389f7844f210ac267313ef6233}\label{classBeelineStrategy_a648eae389f7844f210ac267313ef6233}} 
+\index{BeelineStrategy@{BeelineStrategy}!IsCompleted@{IsCompleted}}
+\index{IsCompleted@{IsCompleted}!BeelineStrategy@{BeelineStrategy}}
+\doxysubsubsection{\texorpdfstring{IsCompleted()}{IsCompleted()}}
+{\footnotesize\ttfamily bool Beeline\+Strategy\+::\+Is\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Check if the trip is completed. 
+
+\begin{DoxyReturn}{Returns}
+True if complete, false if not complete 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a13c6048efd232b696db5f35000d5b106}{I\+Strategy}}.
+
+\mbox{\Hypertarget{classBeelineStrategy_ab8d3f5b05d5e9dd06465f5fc4cd4767e}\label{classBeelineStrategy_ab8d3f5b05d5e9dd06465f5fc4cd4767e}} 
+\index{BeelineStrategy@{BeelineStrategy}!Move@{Move}}
+\index{Move@{Move}!BeelineStrategy@{BeelineStrategy}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Beeline\+Strategy\+::\+Move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$}]{entity,  }\item[{double}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Move toward next position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Entity to move \\
+\hline
+{\em dt} & Delta Time \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a69254389f4ef9a851dc5d40c4cc9aacd}{I\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Beeline\+Strategy.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Beeline\+Strategy.\+cc\end{DoxyCompactItemize}

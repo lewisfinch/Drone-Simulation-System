@@ -1,0 +1,5 @@
+<map id="Battery" name="Battery">
+<area shape="rect" id="node1" title="The station for drone to charge on map." alt="" coords="7,155,78,181"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="11,80,75,107"/>
+<area shape="rect" id="node3" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="5,5,80,32"/>
+</map>

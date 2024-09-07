@@ -1,0 +1,208 @@
+body {
+    /* background: url(../assets/image/hex.png) no-repeat center center; */
+    /* background-size: cover; */
+    overflow: hidden;
+}
+body { margin: 0; }
+canvas { display: block; }
+
+.hide { display:none; }
+
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 101;
+    display:block;
+}
+
+#menu {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    text-align: left;
+    color: white;
+    z-index: 100;
+    display:block;
+    padding: 10px;
+}
+
+#scene-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#notification-bar {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.5;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    width: 300px;
+    color: white;
+    font-size: 1em;
+    white-space: pre-line;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.hover-dropdown {
+    position:absolute;
+    top:40px;
+    height:auto;
+    box-shadow:var(--shadow);
+    display:none;
+    background-color:white;
+    padding:10px;
+    color:black;
+    width:300px;
+}
+
+div[data-role="hover-dropdown-trigger"] {
+    position:relative;
+}
+
+.hover-dropdown li {
+    display:block;
+    width:100%;
+    font-weight:bold;
+    font-size:1.25rem;
+    text-align:center;
+}
+
+.hover-dropdown li:hover {
+    background-color:var(--grey);
+    transition:0.2s;
+}
+
+#alert-wrapper {
+    position:absolute;
+    bottom:100px;
+    left:100px;
+    /* background-color: var(--black); */
+    padding:10px;
+    z-index:999999999999999999999999;
+}
+
+#battery-wrapper {
+    position:absolute;
+    top:100px;
+    left:100px;
+    padding:10px;
+    width:300px;
+    background:rgba(0,0,0,0);
+    overflow:none;
+    z-index:999999999999999999999999;
+}
+
+div.battery-bar-empty {
+    background-color:rgba(255,255,255,0.5);
+    width:100%;
+    /* padding:20px;
+    content:""; */
+    border-radius:5px;
+}
+
+div#battery-bar-fill {
+    background-color:var(--green);
+    border-radius:5px;
+}
+
+div#battery-bar-fill::after {
+    content: "Battery";
+}
+
+.alert {
+    margin:10px 0px;
+    background-color:var(--white);
+    /* padding:3px 6px; */
+    border:2px solid white;
+    box-shadow:var(--shadow);
+    border-radius:5px;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: "icon content";
+    grid-template-rows: "100%";
+    width:auto;
+    max-width:400px;
+}
+
+.alert .icon {
+    grid-area: icon;
+    padding:10px;
+    border-radius:3px 0px 0px 3px;
+    text-align:center;
+}
+
+.alert .icon i {
+    font-size:2rem;
+    text-align:center;
+}
+
+.alert .content {
+    grid-area: content;
+    padding:10px;
+    border-radius:0px 3px 3px 0px;
+    font-size:1.1rem;
+}
+
+/** navbar **/
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .navbar > li:not(:last-child) {display: none;}
+    .navbar > li.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive > li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive > li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .header-navbar .icon {
+    display: none;
+  }
+  
+  .subnav li{
+    color:var(--grey);
+    background-color:rgb(27, 27, 30);
+    padding:10px;
+  }
+  ul.subnav li:hover{
+    background-color:var(--grey);
+    color:rgb(27, 27, 30);
+  }
+
+  .setting-control {
+    background-color:rgba(0, 0, 0, 0.75);
+    position: absolute;
+    color: white;
+    top: 50px;
+    right: 20px;
+    text-align: right;
+    padding: 20px;
+  }

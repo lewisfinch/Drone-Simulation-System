@@ -1,0 +1,273 @@
+\hypertarget{classHelicopter}{}\doxysection{Helicopter Class Reference}
+\label{classHelicopter}\index{Helicopter@{Helicopter}}
+
+
+A helicopter fly randomly on map.  
+
+
+
+
+{\ttfamily \#include $<$Helicopter.\+h$>$}
+
+
+
+Inheritance diagram for Helicopter\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=147pt]{classHelicopter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Helicopter\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=147pt]{classHelicopter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHelicopter_a729e9ff6a148d20c9112818f950a177a}{Helicopter}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classHelicopter}{Helicopter}} are created with a name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHelicopter_ac8d3ea9aa358c9758096a26616fae953}\label{classHelicopter_ac8d3ea9aa358c9758096a26616fae953}} 
+\mbox{\hyperlink{classHelicopter_ac8d3ea9aa358c9758096a26616fae953}{$\sim$\+Helicopter}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classHelicopter}{Helicopter}} object. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classHelicopter_aff4570a488480c2cf70a6f96cec52d37}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Gets the speed of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classHelicopter_a8db916733a82877fa98f9223854cdd54}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the position of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classHelicopter_aef5fe3c3a5029d6da923f123ed308898}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Gets the direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classHelicopter_adc65020147c682911cc8f15ab6bb11d6}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Gets the destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classHelicopter_ae2d381f2ea007904fd7a5f5e6418cb83}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Gets the details information of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHelicopter_a40a86f3aee09c2825dfe27851072791c}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the \mbox{\hyperlink{classHelicopter}{Helicopter}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHelicopter_a0a7386badb41e8f39b14095ffbfd4efd}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the position of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHelicopter_a00794cb2f624ca1b3d01c5920377afaf}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHelicopter_a2ed1e8574f7b4d2dcf4f521008cf7286}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classHelicopter_aaaa3ed7bcb483bc7e5f3e9f24c4ad0dc}\label{classHelicopter_aaaa3ed7bcb483bc7e5f3e9f24c4ad0dc}} 
+void \mbox{\hyperlink{classHelicopter_aaaa3ed7bcb483bc7e5f3e9f24c4ad0dc}{Create\+New\+Destination}} ()
+\begin{DoxyCompactList}\small\item\em Create a new destination for helicopter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classHelicopter_ad1211b18d9db476bfa2c61afead9ffb8}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotates the \mbox{\hyperlink{classHelicopter}{Helicopter}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A helicopter fly randomly on map. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classHelicopter_a729e9ff6a148d20c9112818f950a177a}\label{classHelicopter_a729e9ff6a148d20c9112818f950a177a}} 
+\index{Helicopter@{Helicopter}!Helicopter@{Helicopter}}
+\index{Helicopter@{Helicopter}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{Helicopter()}{Helicopter()}}
+{\footnotesize\ttfamily Helicopter\+::\+Helicopter (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classHelicopter}{Helicopter}} are created with a name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & J\+S\+ON object containing the \mbox{\hyperlink{classHelicopter}{Helicopter}}\textquotesingle{}s information \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHelicopter_adc65020147c682911cc8f15ab6bb11d6}\label{classHelicopter_adc65020147c682911cc8f15ab6bb11d6}} 
+\index{Helicopter@{Helicopter}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Helicopter\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+\begin{DoxyReturn}{Returns}
+The destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_ae2d381f2ea007904fd7a5f5e6418cb83}\label{classHelicopter_ae2d381f2ea007904fd7a5f5e6418cb83}} 
+\index{Helicopter@{Helicopter}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Helicopter\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the details information of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+\begin{DoxyReturn}{Returns}
+The details information of the \mbox{\hyperlink{classHelicopter}{Helicopter}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_aef5fe3c3a5029d6da923f123ed308898}\label{classHelicopter_aef5fe3c3a5029d6da923f123ed308898}} 
+\index{Helicopter@{Helicopter}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Helicopter\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+\begin{DoxyReturn}{Returns}
+The direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_a8db916733a82877fa98f9223854cdd54}\label{classHelicopter_a8db916733a82877fa98f9223854cdd54}} 
+\index{Helicopter@{Helicopter}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Helicopter\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the position of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+\begin{DoxyReturn}{Returns}
+The position of the \mbox{\hyperlink{classHelicopter}{Helicopter}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_aff4570a488480c2cf70a6f96cec52d37}\label{classHelicopter_aff4570a488480c2cf70a6f96cec52d37}} 
+\index{Helicopter@{Helicopter}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Helicopter\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the speed of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+\begin{DoxyReturn}{Returns}
+The speed of the \mbox{\hyperlink{classHelicopter}{Helicopter}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_ad1211b18d9db476bfa2c61afead9ffb8}\label{classHelicopter_ad1211b18d9db476bfa2c61afead9ffb8}} 
+\index{Helicopter@{Helicopter}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Helicopter\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotates the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle by which the \mbox{\hyperlink{classHelicopter}{Helicopter}} should be rotated \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a4c109baa4179c28422623a7d3b2e9f82}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_a2ed1e8574f7b4d2dcf4f521008cf7286}\label{classHelicopter_a2ed1e8574f7b4d2dcf4f521008cf7286}} 
+\index{Helicopter@{Helicopter}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Helicopter\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & The new destination of the \mbox{\hyperlink{classHelicopter}{Helicopter}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_a00794cb2f624ca1b3d01c5920377afaf}\label{classHelicopter_a00794cb2f624ca1b3d01c5920377afaf}} 
+\index{Helicopter@{Helicopter}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Helicopter\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & The new direction of the \mbox{\hyperlink{classHelicopter}{Helicopter}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_a0a7386badb41e8f39b14095ffbfd4efd}\label{classHelicopter_a0a7386badb41e8f39b14095ffbfd4efd}} 
+\index{Helicopter@{Helicopter}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Helicopter\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the position of the \mbox{\hyperlink{classHelicopter}{Helicopter}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & The new position of the \mbox{\hyperlink{classHelicopter}{Helicopter}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classHelicopter_a40a86f3aee09c2825dfe27851072791c}\label{classHelicopter_a40a86f3aee09c2825dfe27851072791c}} 
+\index{Helicopter@{Helicopter}!Update@{Update}}
+\index{Update@{Update}!Helicopter@{Helicopter}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Helicopter\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Updates the \mbox{\hyperlink{classHelicopter}{Helicopter}}\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Delta time \\
+\hline
+{\em scheduler} & Vector containing all the entities in the system \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a9a8e8588fd85c7b0d813d60686d4dc2c}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Helicopter.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Helicopter.\+cc\end{DoxyCompactItemize}

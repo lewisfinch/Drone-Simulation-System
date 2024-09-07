@@ -1,0 +1,107 @@
+* {
+    font-family: PT Serif, serif;
+}
+
+#popup {
+    padding: 3%;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    z-index: 10;
+    background-color: lightblue;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.map {
+    position: absolute;
+    cursor: crosshair;
+    left: 100px;
+    width: 1000px;
+    height: 600px;
+}
+
+.map-container {
+    width: 1000px;
+    height: 650px;
+    margin-left: 100px;
+}
+
+.map-container.warn {
+    color: red;
+    font-weight: bold;
+}
+
+#trips {
+    margin: 2%;
+    color: black;
+    border: navy 2px solid;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: bolder;
+}
+
+#search-strategy {
+    width: 100px;
+}
+
+.panel-header {
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+}
+
+.panel-header {
+    color: white;
+}
+
+.trip-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3%;
+}
+
+.request-container {
+    margin: 0 auto;
+    padding: 3%;
+    width: 50%;
+    border: black 2px solid;
+    border-radius: 10px;
+    color: white;
+    background-color: navy;
+}
+
+.request-container div {
+    margin: 20px;
+}
+
+.request-container.warn {
+    border: 2px red solid;
+}
+
+#schedule-btn, #add-human-btn, #purge-btn {
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+#schedule-btn:hover, #add-human-btn:hover, #purge-btn:hover {
+    background-color: gray;
+}
+
+.name-input.warn {
+    border: 2px red solid;
+}
+
+.trip {
+    margin-left: 50px;
+    color: black;
+}
+
+#purge-btn {
+    color: red;
+}

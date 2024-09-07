@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classIObserver.html" title="IObserver to print message to observer." alt="" coords="5,56,91,83"/>
+<area shape="rect" id="node2" href="$classDroneObserver.html" title="Observer for Drone." alt="" coords="139,5,259,32"/>
+<area shape="rect" id="node3" href="$classRobotObserver.html" title="Observer for Robot." alt="" coords="139,56,258,83"/>
+<area shape="rect" id="node4" href="$classUFObserver.html" title="Observer for UFO." alt="" coords="149,107,248,133"/>
+</map>

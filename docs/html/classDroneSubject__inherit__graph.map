@@ -1,0 +1,4 @@
+<map id="DroneSubject" name="DroneSubject">
+<area shape="rect" id="node1" title="DroneSubject owns some important state and notifies observer when updated environment." alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node2" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="23,5,97,32"/>
+</map>

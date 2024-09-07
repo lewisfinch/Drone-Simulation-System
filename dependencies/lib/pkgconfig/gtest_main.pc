@@ -1,0 +1,10 @@
+libdir=/project/grades/Spring-2022/csci3081/dependencies/lib
+includedir=/project/grades/Spring-2022/csci3081/dependencies/include
+
+Name: gtest_main
+Description: GoogleTest (with main() function)
+Version: 1.11.0
+URL: https://github.com/google/googletest
+Requires: gtest = 1.11.0
+Libs: -L${libdir} -lgtest_main -lpthread
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1

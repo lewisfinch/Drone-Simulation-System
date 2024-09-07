@@ -1,0 +1,108 @@
+\hypertarget{classDroneSubject}{}\doxysection{Drone\+Subject Class Reference}
+\label{classDroneSubject}\index{DroneSubject@{DroneSubject}}
+
+
+\mbox{\hyperlink{classDroneSubject}{Drone\+Subject}} owns some important state and notifies observer when updated environment.  
+
+
+
+
+{\ttfamily \#include $<$Drone\+Subject.\+h$>$}
+
+
+
+Inheritance diagram for Drone\+Subject\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{classDroneSubject__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Drone\+Subject\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{classDroneSubject__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDroneSubject_ac54d9856fae26eecf082238ba418ef06}{Attach}} (\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$observer) override
+\begin{DoxyCompactList}\small\item\em Virtual add new observer/user to subject . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDroneSubject_a718d89ada366370a2663dbd28ccb49e1}{Detach}} (\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$observer) override
+\begin{DoxyCompactList}\small\item\em Virtual delete new observer/user to subject . \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDroneSubject_a9713bd367cfc05740004ceb4bc74f225}\label{classDroneSubject_a9713bd367cfc05740004ceb4bc74f225}} 
+void \mbox{\hyperlink{classDroneSubject_a9713bd367cfc05740004ceb4bc74f225}{Notify}} () override
+\begin{DoxyCompactList}\small\item\em Virtual notifies the observer in the subject. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDroneSubject_a18eb3ae746ce0259e1bc1509aa46d5fd}{Create\+Message}} (std\+::string message=\char`\"{}Empty\char`\"{})
+\begin{DoxyCompactList}\small\item\em initialize the message to be \char`\"{}\+Empty\char`\"{} at the beginning \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDroneSubject_a936572c968180dba2b394b92333febb7}\label{classDroneSubject_a936572c968180dba2b394b92333febb7}} 
+void \mbox{\hyperlink{classDroneSubject_a936572c968180dba2b394b92333febb7}{How\+Many\+Observer}} ()
+\begin{DoxyCompactList}\small\item\em calculate the number of observer at the current time \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDroneSubject}{Drone\+Subject}} owns some important state and notifies observer when updated environment. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDroneSubject_ac54d9856fae26eecf082238ba418ef06}\label{classDroneSubject_ac54d9856fae26eecf082238ba418ef06}} 
+\index{DroneSubject@{DroneSubject}!Attach@{Attach}}
+\index{Attach@{Attach}!DroneSubject@{DroneSubject}}
+\doxysubsubsection{\texorpdfstring{Attach()}{Attach()}}
+{\footnotesize\ttfamily void Drone\+Subject\+::\+Attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual add new observer/user to subject . 
+
+The subscription management methods. 
+\begin{DoxyParams}{Parameters}
+{\em observer} & a observer variable \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classISubject_ae5eab66fa44f227aaafd9aee56018fe8}{I\+Subject}}.
+
+\mbox{\Hypertarget{classDroneSubject_a18eb3ae746ce0259e1bc1509aa46d5fd}\label{classDroneSubject_a18eb3ae746ce0259e1bc1509aa46d5fd}} 
+\index{DroneSubject@{DroneSubject}!CreateMessage@{CreateMessage}}
+\index{CreateMessage@{CreateMessage}!DroneSubject@{DroneSubject}}
+\doxysubsubsection{\texorpdfstring{CreateMessage()}{CreateMessage()}}
+{\footnotesize\ttfamily void Drone\+Subject\+::\+Create\+Message (\begin{DoxyParamCaption}\item[{std\+::string}]{message = {\ttfamily \char`\"{}Empty\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+initialize the message to be \char`\"{}\+Empty\char`\"{} at the beginning 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & a string \char`\"{}\+Empty\char`\"{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDroneSubject_a718d89ada366370a2663dbd28ccb49e1}\label{classDroneSubject_a718d89ada366370a2663dbd28ccb49e1}} 
+\index{DroneSubject@{DroneSubject}!Detach@{Detach}}
+\index{Detach@{Detach}!DroneSubject@{DroneSubject}}
+\doxysubsubsection{\texorpdfstring{Detach()}{Detach()}}
+{\footnotesize\ttfamily void Drone\+Subject\+::\+Detach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual delete new observer/user to subject . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & a observer variable \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classISubject_a2839e9b5ad3cdd6e73081272def58e27}{I\+Subject}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Drone\+Subject.\+h\end{DoxyCompactItemize}

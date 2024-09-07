@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="5,132,80,159"/>
+<area shape="rect" id="node2" href="$classDroneSubject.html" title="DroneSubject owns some important state and notifies observer when updated environment." alt="" coords="128,107,237,133"/>
+<area shape="rect" id="node3" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="151,157,215,184"/>
+<area shape="rect" id="node4" href="$classBattery.html" title="The station for drone to charge on map." alt="" coords="317,5,388,32"/>
+<area shape="rect" id="node5" href="$classBatteryDecorator.html" title="The battery decorator wrapped on drone." alt="" coords="285,56,420,83"/>
+<area shape="rect" id="node6" href="$classDrone.html" title="Represents a drone in a physical system. Drones move using euler integration based on a specified vel..." alt="" coords="322,107,383,133"/>
+<area shape="rect" id="node7" href="$classHelicopter.html" title="A helicopter fly randomly on map." alt="" coords="308,157,397,184"/>
+<area shape="rect" id="node8" href="$classHuman.html" title="A human run randomly on map." alt="" coords="318,208,387,235"/>
+<area shape="rect" id="node9" href="$classRobot.html" title="Represents a robot in a physical system." alt="" coords="323,259,383,285"/>
+<area shape="rect" id="node10" href="$classUFO.html" title="Represents a UFO in a physical system. UFOs move using euler integration based on a specified velocit..." alt="" coords="327,309,378,336"/>
+</map>

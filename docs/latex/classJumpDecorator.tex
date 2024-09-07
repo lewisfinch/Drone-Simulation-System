@@ -1,0 +1,91 @@
+\hypertarget{classJumpDecorator}{}\doxysection{Jump\+Decorator Class Reference}
+\label{classJumpDecorator}\index{JumpDecorator@{JumpDecorator}}
+
+
+this class inhertis from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is represents a celebration decorator where the entity will celebrate according to it.  
+
+
+
+
+{\ttfamily \#include $<$Jump\+Decorator.\+h$>$}
+
+
+
+Inheritance diagram for Jump\+Decorator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classJumpDecorator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Jump\+Decorator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classJumpDecorator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classJumpDecorator_a0895afdd51622db154ddf48cc7cf8c85}{Jump\+Decorator}} (\mbox{\hyperlink{classIStrategy}{I\+Strategy}} $\ast$strategy)
+\begin{DoxyCompactList}\small\item\em Construct a new Jump Decorator object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classJumpDecorator_acc9ef42d52b08ae18e6ca790b545b28d}\label{classJumpDecorator_acc9ef42d52b08ae18e6ca790b545b28d}} 
+\mbox{\hyperlink{classJumpDecorator_acc9ef42d52b08ae18e6ca790b545b28d}{$\sim$\+Jump\+Decorator}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classJumpDecorator}{Jump\+Decorator}} Destructor. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classJumpDecorator_a6d46675428916bbe6acd10fb25d51f86}{Move}} (\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$entity, double dt)
+\begin{DoxyCompactList}\small\item\em Move the entity with the jump behavior for 4 seconds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this class inhertis from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is represents a celebration decorator where the entity will celebrate according to it. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classJumpDecorator_a0895afdd51622db154ddf48cc7cf8c85}\label{classJumpDecorator_a0895afdd51622db154ddf48cc7cf8c85}} 
+\index{JumpDecorator@{JumpDecorator}!JumpDecorator@{JumpDecorator}}
+\index{JumpDecorator@{JumpDecorator}!JumpDecorator@{JumpDecorator}}
+\doxysubsubsection{\texorpdfstring{JumpDecorator()}{JumpDecorator()}}
+{\footnotesize\ttfamily Jump\+Decorator\+::\+Jump\+Decorator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIStrategy}{I\+Strategy}} $\ast$}]{strategy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construct a new Jump Decorator object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy} & the strategy to decorate onto \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classJumpDecorator_a6d46675428916bbe6acd10fb25d51f86}\label{classJumpDecorator_a6d46675428916bbe6acd10fb25d51f86}} 
+\index{JumpDecorator@{JumpDecorator}!Move@{Move}}
+\index{Move@{Move}!JumpDecorator@{JumpDecorator}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Jump\+Decorator\+::\+Move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$}]{entity,  }\item[{double}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Move the entity with the jump behavior for 4 seconds. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Entity to move \\
+\hline
+{\em dt} & Delta Time \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classCelebrationDecorator_ae0711d10b93521df0bafd05795838860}{Celebration\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Jump\+Decorator.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Jump\+Decorator.\+cc\end{DoxyCompactItemize}

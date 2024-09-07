@@ -1,0 +1,71 @@
+\hypertarget{classRobotFactory}{}\doxysection{Robot\+Factory Class Reference}
+\label{classRobotFactory}\index{RobotFactory@{RobotFactory}}
+
+
+\mbox{\hyperlink{classDrone}{Drone}} Factory to produce Drones class.  
+
+
+
+
+{\ttfamily \#include $<$Robot\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for Robot\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classRobotFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Robot\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classRobotFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classRobotFactory_a11818d808cce9c99bbb103e13a8ba90b}\label{classRobotFactory_a11818d808cce9c99bbb103e13a8ba90b}} 
+virtual \mbox{\hyperlink{classRobotFactory_a11818d808cce9c99bbb103e13a8ba90b}{$\sim$\+Robot\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classRobotFactory_ad2ceb080af7357b641332a237ae74959}{Create\+Entity}} (Json\+Object \&entity)
+\begin{DoxyCompactList}\small\item\em Creates entity using the given J\+S\+ON object, if possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDrone}{Drone}} Factory to produce Drones class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRobotFactory_ad2ceb080af7357b641332a237ae74959}\label{classRobotFactory_ad2ceb080af7357b641332a237ae74959}} 
+\index{RobotFactory@{RobotFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!RobotFactory@{RobotFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ Robot\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Creates entity using the given J\+S\+ON object, if possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & -\/ Json\+Object to be used to create the new entity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity that was created if it was created successfully, or a nullpointer if creation failed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{I\+Entity\+Factory}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Robot\+Factory.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Robot\+Factory.\+cc\end{DoxyCompactItemize}

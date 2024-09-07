@@ -1,0 +1,5 @@
+<map id="UFO" name="UFO">
+<area shape="rect" id="node1" title="Represents a UFO in a physical system. UFOs move using euler integration based on a specified velocit..." alt="" coords="17,155,68,181"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="11,80,75,107"/>
+<area shape="rect" id="node3" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="5,5,80,32"/>
+</map>

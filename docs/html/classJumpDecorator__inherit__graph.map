@@ -1,0 +1,5 @@
+<map id="JumpDecorator" name="JumpDecorator">
+<area shape="rect" id="node1" title="this class inhertis from the IStrategy class and is represents a celebration decorator where the enti..." alt="" coords="27,155,145,181"/>
+<area shape="rect" id="node2" href="$classCelebrationDecorator.html" title="this class inhertis from the IStrategy class and is represents a celebration decorator where the enti..." alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node3" href="$classIStrategy.html" title="Strategy interface." alt="" coords="45,5,127,32"/>
+</map>

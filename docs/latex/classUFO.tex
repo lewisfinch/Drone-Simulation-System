@@ -1,0 +1,312 @@
+\hypertarget{classUFO}{}\doxysection{U\+FO Class Reference}
+\label{classUFO}\index{UFO@{UFO}}
+
+
+Represents a \mbox{\hyperlink{classUFO}{U\+FO}} in a physical system. U\+F\+Os move using euler integration based on a specified velocity and direction.  
+
+
+
+
+{\ttfamily \#include $<$U\+F\+O.\+h$>$}
+
+
+
+Inheritance diagram for U\+FO\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classUFO__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for U\+FO\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{classUFO__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUFO_a180ad595098a996441def5a35627bb0f}{U\+FO}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em U\+F\+Os are created with a name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUFO_a9b9a4ffd4c06cced6e3f204e5ee92f89}\label{classUFO_a9b9a4ffd4c06cced6e3f204e5ee92f89}} 
+\mbox{\hyperlink{classUFO_a9b9a4ffd4c06cced6e3f204e5ee92f89}{$\sim$\+U\+FO}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classUFO_a3037919c4b733ae5432b508be752c0b8}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Gets the speed of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the position of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Gets the direction of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_ab43d2e316ef65a8b34a79121f96ad263}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Gets the destination of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classUFO_ac12023d17f50aab1eb552be696e9dbbb}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Gets the details information of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}{Get\+Availability}} () const
+\begin{DoxyCompactList}\small\item\em Gets the availability of the drone. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_aa0915e571bade01b6107d8ff1f3a1a13}{Get\+Target}} (std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Gets the nearest entity in the scheduler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a42b27ffbb367adb1512697fa83688bcc}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the \mbox{\hyperlink{classUFO}{U\+FO}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the position of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a38c653cd98b631e45bebf5b53d16dad6}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the direction of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_ad65e47d605da582d0dbfdeb60caa601a}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the destination of the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotates the \mbox{\hyperlink{classUFO}{U\+FO}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUFO_a3c44473ef21c245d5ade8b1f05efb50f}\label{classUFO_a3c44473ef21c245d5ade8b1f05efb50f}} 
+\mbox{\hyperlink{classUFO_a3c44473ef21c245d5ade8b1f05efb50f}{U\+FO}} (const \mbox{\hyperlink{classUFO}{U\+FO}} \&\mbox{\hyperlink{classUFO}{U\+FO}})=delete
+\begin{DoxyCompactList}\small\item\em Removing the copy constructor and assignment operator so that U\+F\+Os cannot be copied. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUFO_af523ad3259fb2d2f8e732325152c7a55}\label{classUFO_af523ad3259fb2d2f8e732325152c7a55}} 
+\mbox{\hyperlink{classUFO}{U\+FO}} \& {\bfseries operator=} (const \mbox{\hyperlink{classUFO}{U\+FO}} \&\mbox{\hyperlink{classUFO}{U\+FO}})=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Represents a \mbox{\hyperlink{classUFO}{U\+FO}} in a physical system. U\+F\+Os move using euler integration based on a specified velocity and direction. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUFO_a180ad595098a996441def5a35627bb0f}\label{classUFO_a180ad595098a996441def5a35627bb0f}} 
+\index{UFO@{UFO}!UFO@{UFO}}
+\index{UFO@{UFO}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{UFO()}{UFO()}}
+{\footnotesize\ttfamily U\+F\+O\+::\+U\+FO (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+U\+F\+Os are created with a name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & J\+S\+ON object containing the \mbox{\hyperlink{classUFO}{U\+FO}}\textquotesingle{}s information \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}\label{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}} 
+\index{UFO@{UFO}!GetAvailability@{GetAvailability}}
+\index{GetAvailability@{GetAvailability}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetAvailability()}{GetAvailability()}}
+{\footnotesize\ttfamily bool U\+F\+O\+::\+Get\+Availability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the availability of the drone. 
+
+\begin{DoxyReturn}{Returns}
+The availability of the drone 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a90348881691a37d5c3d63265ed3463b1}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ab43d2e316ef65a8b34a79121f96ad263}\label{classUFO_ab43d2e316ef65a8b34a79121f96ad263}} 
+\index{UFO@{UFO}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the destination of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+\begin{DoxyReturn}{Returns}
+The destination of the \mbox{\hyperlink{classUFO}{U\+FO}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ac12023d17f50aab1eb552be696e9dbbb}\label{classUFO_ac12023d17f50aab1eb552be696e9dbbb}} 
+\index{UFO@{UFO}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object U\+F\+O\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the details information of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+\begin{DoxyReturn}{Returns}
+The details information of the \mbox{\hyperlink{classUFO}{U\+FO}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}\label{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}} 
+\index{UFO@{UFO}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the direction of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+\begin{DoxyReturn}{Returns}
+The direction of the \mbox{\hyperlink{classUFO}{U\+FO}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}\label{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}} 
+\index{UFO@{UFO}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the position of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+\begin{DoxyReturn}{Returns}
+The position of the \mbox{\hyperlink{classUFO}{U\+FO}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a3037919c4b733ae5432b508be752c0b8}\label{classUFO_a3037919c4b733ae5432b508be752c0b8}} 
+\index{UFO@{UFO}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float U\+F\+O\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the speed of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+\begin{DoxyReturn}{Returns}
+The speed of the \mbox{\hyperlink{classUFO}{U\+FO}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_aa0915e571bade01b6107d8ff1f3a1a13}\label{classUFO_aa0915e571bade01b6107d8ff1f3a1a13}} 
+\index{UFO@{UFO}!GetTarget@{GetTarget}}
+\index{GetTarget@{GetTarget}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetTarget()}{GetTarget()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Get\+Target (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})}
+
+
+
+Gets the nearest entity in the scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scheduler} & Vector containing all the entities in the system \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}\label{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}} 
+\index{UFO@{UFO}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotates the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & The angle by which the \mbox{\hyperlink{classUFO}{U\+FO}} should be rotated \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a4c109baa4179c28422623a7d3b2e9f82}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ad65e47d605da582d0dbfdeb60caa601a}\label{classUFO_ad65e47d605da582d0dbfdeb60caa601a}} 
+\index{UFO@{UFO}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the destination of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & The new destination of the \mbox{\hyperlink{classUFO}{U\+FO}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a38c653cd98b631e45bebf5b53d16dad6}\label{classUFO_a38c653cd98b631e45bebf5b53d16dad6}} 
+\index{UFO@{UFO}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the direction of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & The new direction of the \mbox{\hyperlink{classUFO}{U\+FO}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}\label{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}} 
+\index{UFO@{UFO}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the position of the \mbox{\hyperlink{classUFO}{U\+FO}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & The new position of the \mbox{\hyperlink{classUFO}{U\+FO}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a42b27ffbb367adb1512697fa83688bcc}\label{classUFO_a42b27ffbb367adb1512697fa83688bcc}} 
+\index{UFO@{UFO}!Update@{Update}}
+\index{Update@{Update}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Updates the \mbox{\hyperlink{classUFO}{U\+FO}}\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Delta time \\
+\hline
+{\em scheduler} & Vector containing all the entities in the system \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a9a8e8588fd85c7b0d813d60686d4dc2c}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/U\+F\+O.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/U\+F\+O.\+cc\end{DoxyCompactItemize}

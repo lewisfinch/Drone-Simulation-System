@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['scheduletrip_227',['ScheduleTrip',['../classSimulationModel.html#a68a4d4927ec49f6f362f7bfb07a96ddc',1,'SimulationModel']]],
+  ['sendeventtoview_228',['SendEventToView',['../classIController.html#ab9ee95cb6f33c04b1323cec88e5d27b5',1,'IController']]],
+  ['setavailability_229',['SetAvailability',['../classDrone.html#ab6f079d4114cc5602b38c316c4b6ef75',1,'Drone::SetAvailability()'],['../classIEntity.html#adf3acdf4764f5ff25f89d7814e39551c',1,'IEntity::SetAvailability()'],['../classRobot.html#a2ef6424fa88e43973ade3fddb4ec649b',1,'Robot::SetAvailability()']]],
+  ['setcharging_230',['SetCharging',['../classDrone.html#aa3279373e11f8f60df6d20a0b99afc6a',1,'Drone']]],
+  ['setcolor_231',['SetColor',['../classBatteryDecorator.html#a0eb3a3d0f3b6a7a4e1b2bd69d65d3dbb',1,'BatteryDecorator::SetColor()'],['../classDrone.html#a779efec4ba4b8b90635656c0a4c313f9',1,'Drone::SetColor()'],['../classIEntity.html#a61b62fe1126f473d8ebb524c70c57a39',1,'IEntity::SetColor()']]],
+  ['setdestination_232',['SetDestination',['../classBattery.html#a384c9d1386f9bde106fa90eca9e901a0',1,'Battery::SetDestination()'],['../classDrone.html#a2dfb158a784d354d13740a40151fb312',1,'Drone::SetDestination()'],['../classHelicopter.html#a2ed1e8574f7b4d2dcf4f521008cf7286',1,'Helicopter::SetDestination()'],['../classHuman.html#afafadfceb5333d5016dc1a463b5f77c9',1,'Human::SetDestination()'],['../classIEntity.html#aa473000823f673e9d7b89aed3cd3fc5c',1,'IEntity::SetDestination()'],['../classRobot.html#a557af09ca03132837bc6574bca6fbe05',1,'Robot::SetDestination()'],['../classUFO.html#ad65e47d605da582d0dbfdeb60caa601a',1,'UFO::SetDestination()']]],
+  ['setdirection_233',['SetDirection',['../classBattery.html#a254fc908b076cd17d7809682a5a55ce1',1,'Battery::SetDirection()'],['../classDrone.html#a102651f93957b1dbe8199cbd30a9e26f',1,'Drone::SetDirection()'],['../classHelicopter.html#a00794cb2f624ca1b3d01c5920377afaf',1,'Helicopter::SetDirection()'],['../classHuman.html#a61b07f167a38968c9811eee2fb85d49d',1,'Human::SetDirection()'],['../classIEntity.html#a64bfaa448a929ca71693ff3e2edb9d97',1,'IEntity::SetDirection()'],['../classRobot.html#aaa0e41dbf57cb4040c0319b93c5a008c',1,'Robot::SetDirection()'],['../classUFO.html#a38c653cd98b631e45bebf5b53d16dad6',1,'UFO::SetDirection()']]],
+  ['setgraph_234',['SetGraph',['../classBatteryDecorator.html#aa176f84c6ec8957f1446da0c8ca1edc5',1,'BatteryDecorator::SetGraph()'],['../classIEntity.html#a6b8b8eb627e8945fdc997f7a9d457df0',1,'IEntity::SetGraph()'],['../classSimulationModel.html#a7595badfb368bcf5673f98b3f229dc0f',1,'SimulationModel::SetGraph()']]],
+  ['setmark_235',['SetMark',['../classIEntity.html#a5753f767117a546e0bc107517ac5d22a',1,'IEntity']]],
+  ['setnearestentity_236',['SetNearestEntity',['../classDrone.html#a95323576ca7cab8981ab86993d4e4af1',1,'Drone']]],
+  ['setpickedup_237',['SetPickedUp',['../classDrone.html#ae78b5f5056a5f6e343eb132177fac5c9',1,'Drone']]],
+  ['setposition_238',['SetPosition',['../classBattery.html#a344e7a1e1ad3098e717226d55058b88b',1,'Battery::SetPosition()'],['../classDrone.html#a00150938e8dbfceaf81c9fb59994f6ef',1,'Drone::SetPosition()'],['../classHelicopter.html#a0a7386badb41e8f39b14095ffbfd4efd',1,'Helicopter::SetPosition()'],['../classHuman.html#aa0a0ca8e4482a77a3ac75cb09b14061f',1,'Human::SetPosition()'],['../classIEntity.html#af0475048b09dc13ed6cf8e7c7be2ae6b',1,'IEntity::SetPosition()'],['../classRobot.html#a35ce73ea17f6cfbcbfe272c6bff038ba',1,'Robot::SetPosition()'],['../classUFO.html#ab898f6962b6e17b66a730ee8acacaf0a',1,'UFO::SetPosition()']]],
+  ['setpower_239',['setPower',['../classBatteryDecorator.html#addc6a7e73de9e1e19a400d78561b90b6',1,'BatteryDecorator']]],
+  ['setstrategyname_240',['SetStrategyName',['../classIEntity.html#a933def05f85783fddbf05e8257cc8880',1,'IEntity::SetStrategyName()'],['../classRobot.html#a59c7dbc7346f86df3941c5dad9b12507',1,'Robot::SetStrategyName()']]],
+  ['settofinal_241',['SetToFinal',['../classDrone.html#a67836699ca74c635487ccf8d73eda3eb',1,'Drone']]],
+  ['settorobot_242',['SetToRobot',['../classDrone.html#a7794cf4f55325a3f825ea96d7877f550',1,'Drone']]],
+  ['settostation_243',['SetToStation',['../classDrone.html#a56b86d4b42c86bf2b3fa7285b53168f2',1,'Drone']]],
+  ['simulationmodel_244',['SimulationModel',['../classSimulationModel.html#adf36c1575bfba5c56cc5d27dcaed7691',1,'SimulationModel']]],
+  ['spindecorator_245',['SpinDecorator',['../classSpinDecorator.html#a1df14a81e0d8289ee87151e936fc2ac5',1,'SpinDecorator']]]
+];

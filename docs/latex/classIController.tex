@@ -1,0 +1,136 @@
+\hypertarget{classIController}{}\doxysection{I\+Controller Class Reference}
+\label{classIController}\index{IController@{IController}}
+
+
+class for \mbox{\hyperlink{classIController}{I\+Controller}} used for transit service. Uses the Model View  
+
+
+
+
+{\ttfamily \#include $<$I\+Controller.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIController_a30b618142be776fd779255998a540e08}\label{classIController_a30b618142be776fd779255998a540e08}} 
+virtual \mbox{\hyperlink{classIController_a30b618142be776fd779255998a540e08}{$\sim$\+I\+Controller}} ()
+\begin{DoxyCompactList}\small\item\em A destructor for \mbox{\hyperlink{classIController}{I\+Controller}}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_a9d4ed07090f564f3d6f1847440835610}{Add\+Entity}} (const \mbox{\hyperlink{classIEntity}{I\+Entity}} \&entity)=0
+\begin{DoxyCompactList}\small\item\em Add the entity to the program. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_aae116763f3bbfc0875eb841912df7c59}{Update\+Entity}} (const \mbox{\hyperlink{classIEntity}{I\+Entity}} \&entity)=0
+\begin{DoxyCompactList}\small\item\em To update the entity information and add it to the program. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_a35b431eb8e01216df8b33fa3f4c2b25c}{Remove\+Entity}} (int id)=0
+\begin{DoxyCompactList}\small\item\em To remove the entity from the program. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_aa50f4cf3a9cc11decfc8e201dc00ab39}{Add\+Path}} (int id, const std\+::vector$<$ std\+::vector$<$ float $>$ $>$ \&path)=0
+\begin{DoxyCompactList}\small\item\em To add a path to the program. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_a23bf74a0e1672c6daba1674137759f55}{Remove\+Path}} (int id)=0
+\begin{DoxyCompactList}\small\item\em To remove a path from the entity controller program. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classIController_ab9ee95cb6f33c04b1323cec88e5d27b5}{Send\+Event\+To\+View}} (const std\+::string \&event, const Json\+Object \&details)=0
+\begin{DoxyCompactList}\small\item\em To allow message to be passed back to the view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class for \mbox{\hyperlink{classIController}{I\+Controller}} used for transit service. Uses the Model View 
+
+Abstract controller class used in the Transit Service. Uses the Model View Controller Pattern 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIController_a9d4ed07090f564f3d6f1847440835610}\label{classIController_a9d4ed07090f564f3d6f1847440835610}} 
+\index{IController@{IController}!AddEntity@{AddEntity}}
+\index{AddEntity@{AddEntity}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{AddEntity()}{AddEntity()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Add\+Entity (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classIEntity}{I\+Entity}} \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Add the entity to the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Type \mbox{\hyperlink{classIEntity}{I\+Entity}} contain entity object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIController_aa50f4cf3a9cc11decfc8e201dc00ab39}\label{classIController_aa50f4cf3a9cc11decfc8e201dc00ab39}} 
+\index{IController@{IController}!AddPath@{AddPath}}
+\index{AddPath@{AddPath}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{AddPath()}{AddPath()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Add\+Path (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{const std\+::vector$<$ std\+::vector$<$ float $>$ $>$ \&}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+To add a path to the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Type int contain the ID of the entity object \\
+\hline
+{\em path} & A float vector contain the path \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIController_a35b431eb8e01216df8b33fa3f4c2b25c}\label{classIController_a35b431eb8e01216df8b33fa3f4c2b25c}} 
+\index{IController@{IController}!RemoveEntity@{RemoveEntity}}
+\index{RemoveEntity@{RemoveEntity}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{RemoveEntity()}{RemoveEntity()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Remove\+Entity (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+To remove the entity from the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Type int contain the ID of the entity object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIController_a23bf74a0e1672c6daba1674137759f55}\label{classIController_a23bf74a0e1672c6daba1674137759f55}} 
+\index{IController@{IController}!RemovePath@{RemovePath}}
+\index{RemovePath@{RemovePath}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{RemovePath()}{RemovePath()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Remove\+Path (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+To remove a path from the entity controller program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Type int contain the ID of the entity object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIController_ab9ee95cb6f33c04b1323cec88e5d27b5}\label{classIController_ab9ee95cb6f33c04b1323cec88e5d27b5}} 
+\index{IController@{IController}!SendEventToView@{SendEventToView}}
+\index{SendEventToView@{SendEventToView}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{SendEventToView()}{SendEventToView()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Send\+Event\+To\+View (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{event,  }\item[{const Json\+Object \&}]{details }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+To allow message to be passed back to the view. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Type string contain name of the event \\
+\hline
+{\em details} & Type Json\+Object contain the details of the event \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIController_aae116763f3bbfc0875eb841912df7c59}\label{classIController_aae116763f3bbfc0875eb841912df7c59}} 
+\index{IController@{IController}!UpdateEntity@{UpdateEntity}}
+\index{UpdateEntity@{UpdateEntity}!IController@{IController}}
+\doxysubsubsection{\texorpdfstring{UpdateEntity()}{UpdateEntity()}}
+{\footnotesize\ttfamily virtual void I\+Controller\+::\+Update\+Entity (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classIEntity}{I\+Entity}} \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+To update the entity information and add it to the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Type \mbox{\hyperlink{classIEntity}{I\+Entity}} contain entity object \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/I\+Controller.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="Helicopter" name="Helicopter">
+<area shape="rect" id="node1" title="A helicopter fly randomly on map." alt="" coords="5,155,95,181"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="18,80,82,107"/>
+<area shape="rect" id="node3" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="13,5,87,32"/>
+</map>

@@ -1,0 +1,71 @@
+\hypertarget{classHumanFactory}{}\doxysection{Human\+Factory Class Reference}
+\label{classHumanFactory}\index{HumanFactory@{HumanFactory}}
+
+
+\mbox{\hyperlink{classHuman}{Human}} Factory to produce \mbox{\hyperlink{classHuman}{Human}} class.  
+
+
+
+
+{\ttfamily \#include $<$Human\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for Human\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=168pt]{classHumanFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Human\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=168pt]{classHumanFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classHumanFactory_ac8341215917d29213ddc7119fa66fbfe}\label{classHumanFactory_ac8341215917d29213ddc7119fa66fbfe}} 
+virtual \mbox{\hyperlink{classHumanFactory_ac8341215917d29213ddc7119fa66fbfe}{$\sim$\+Human\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classHumanFactory}{Human\+Factory}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classHumanFactory_ad909d7cd13fdaabe0734666378b15437}{Create\+Entity}} (Json\+Object \&entity)
+\begin{DoxyCompactList}\small\item\em Creates entity using the given J\+S\+ON object, if possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classHuman}{Human}} Factory to produce \mbox{\hyperlink{classHuman}{Human}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classHumanFactory_ad909d7cd13fdaabe0734666378b15437}\label{classHumanFactory_ad909d7cd13fdaabe0734666378b15437}} 
+\index{HumanFactory@{HumanFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!HumanFactory@{HumanFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ Human\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Creates entity using the given J\+S\+ON object, if possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & -\/ Json\+Object to be used to create the new entity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity that was created if it was created successfully, or a nullpointer if creation failed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{I\+Entity\+Factory}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/Human\+Factory.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/Human\+Factory.\+cc\end{DoxyCompactItemize}

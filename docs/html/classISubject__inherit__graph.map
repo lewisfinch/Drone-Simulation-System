@@ -1,0 +1,12 @@
+<map id="ISubject" name="ISubject">
+<area shape="rect" id="node1" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="297,5,371,32"/>
+<area shape="rect" id="node2" href="$classDroneSubject.html" title="DroneSubject owns some important state and notifies observer when updated environment." alt="" coords="225,80,334,107"/>
+<area shape="rect" id="node3" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="358,80,422,107"/>
+<area shape="rect" id="node4" href="$classBattery.html" title="The station for drone to charge on map." alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node5" href="$classBatteryDecorator.html" title="The battery decorator wrapped on drone." alt="" coords="100,155,235,181"/>
+<area shape="rect" id="node6" href="$classDrone.html" title="Represents a drone in a physical system. Drones move using euler integration based on a specified vel..." alt="" coords="259,155,321,181"/>
+<area shape="rect" id="node7" href="$classHelicopter.html" title="A helicopter fly randomly on map." alt="" coords="345,155,435,181"/>
+<area shape="rect" id="node8" href="$classHuman.html" title="A human run randomly on map." alt="" coords="459,155,529,181"/>
+<area shape="rect" id="node9" href="$classRobot.html" title="Represents a robot in a physical system." alt="" coords="553,155,613,181"/>
+<area shape="rect" id="node10" href="$classUFO.html" title="Represents a UFO in a physical system. UFOs move using euler integration based on a specified velocit..." alt="" coords="638,155,689,181"/>
+</map>

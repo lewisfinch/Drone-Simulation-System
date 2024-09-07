@@ -1,0 +1,6 @@
+<map id="BatteryDecorator" name="BatteryDecorator">
+<area shape="rect" id="node1" title="The battery decorator wrapped on drone." alt="" coords="5,247,140,273"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Represents an entity in a physical system." alt="" coords="35,81,99,108"/>
+<area shape="rect" id="node4" href="$classDrone.html" title="Represents a drone in a physical system. Drones move using euler integration based on a specified vel..." alt="" coords="89,157,150,184"/>
+<area shape="rect" id="node3" href="$classISubject.html" title="ISubject owns some important state and notifies observer when updated environment." alt="" coords="30,5,105,32"/>
+</map>

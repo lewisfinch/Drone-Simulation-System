@@ -1,0 +1,100 @@
+\hypertarget{classISubject}{}\doxysection{I\+Subject Class Reference}
+\label{classISubject}\index{ISubject@{ISubject}}
+
+
+\mbox{\hyperlink{classISubject}{I\+Subject}} owns some important state and notifies observer when updated environment.  
+
+
+
+
+{\ttfamily \#include $<$I\+Subject.\+h$>$}
+
+
+
+Inheritance diagram for I\+Subject\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classISubject__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classISubject_a6c5b23ca0dc6b162f13b565319f78bd8}\label{classISubject_a6c5b23ca0dc6b162f13b565319f78bd8}} 
+virtual \mbox{\hyperlink{classISubject_a6c5b23ca0dc6b162f13b565319f78bd8}{$\sim$\+I\+Subject}} ()
+\begin{DoxyCompactList}\small\item\em Virtual destructor for \mbox{\hyperlink{classIEntity}{I\+Entity}}. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classISubject_ae5eab66fa44f227aaafd9aee56018fe8}{Attach}} (\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$observer)=0
+\begin{DoxyCompactList}\small\item\em Virtual add new observer/user to subject . \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classISubject_a2839e9b5ad3cdd6e73081272def58e27}{Detach}} (\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$observer)=0
+\begin{DoxyCompactList}\small\item\em Virtual delete new observer/user to subject . \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classISubject_ad5ccc4a5b8867f8640aaffc54b16fa7b}{Notify}} (std\+::string message)=0
+\begin{DoxyCompactList}\small\item\em Virtual notifies the observer in the subject. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classISubject}{I\+Subject}} owns some important state and notifies observer when updated environment. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classISubject_ae5eab66fa44f227aaafd9aee56018fe8}\label{classISubject_ae5eab66fa44f227aaafd9aee56018fe8}} 
+\index{ISubject@{ISubject}!Attach@{Attach}}
+\index{Attach@{Attach}!ISubject@{ISubject}}
+\doxysubsubsection{\texorpdfstring{Attach()}{Attach()}}
+{\footnotesize\ttfamily virtual void I\+Subject\+::\+Attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Virtual add new observer/user to subject . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & Type \mbox{\hyperlink{classIObserver}{I\+Observer}} variable \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classDroneSubject_ac54d9856fae26eecf082238ba418ef06}{Drone\+Subject}}, and \mbox{\hyperlink{classIEntity_ace22b6af4e4c6804487d4a67d18a2c52}{I\+Entity}}.
+
+\mbox{\Hypertarget{classISubject_a2839e9b5ad3cdd6e73081272def58e27}\label{classISubject_a2839e9b5ad3cdd6e73081272def58e27}} 
+\index{ISubject@{ISubject}!Detach@{Detach}}
+\index{Detach@{Detach}!ISubject@{ISubject}}
+\doxysubsubsection{\texorpdfstring{Detach()}{Detach()}}
+{\footnotesize\ttfamily virtual void I\+Subject\+::\+Detach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIObserver}{I\+Observer}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Virtual delete new observer/user to subject . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & Type \mbox{\hyperlink{classIObserver}{I\+Observer}} variable \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classDroneSubject_a718d89ada366370a2663dbd28ccb49e1}{Drone\+Subject}}, and \mbox{\hyperlink{classIEntity_aaa8d8c603d62c13752ea67db807b536e}{I\+Entity}}.
+
+\mbox{\Hypertarget{classISubject_ad5ccc4a5b8867f8640aaffc54b16fa7b}\label{classISubject_ad5ccc4a5b8867f8640aaffc54b16fa7b}} 
+\index{ISubject@{ISubject}!Notify@{Notify}}
+\index{Notify@{Notify}!ISubject@{ISubject}}
+\doxysubsubsection{\texorpdfstring{Notify()}{Notify()}}
+{\footnotesize\ttfamily virtual void I\+Subject\+::\+Notify (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Virtual notifies the observer in the subject. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & Type string \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classIEntity_a9b42145281561008f4e267035d3ffa41}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/I\+Subject.\+h\end{DoxyCompactItemize}

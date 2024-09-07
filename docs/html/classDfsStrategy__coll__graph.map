@@ -1,0 +1,5 @@
+<map id="DfsStrategy" name="DfsStrategy">
+<area shape="rect" id="node1" title="this class inhertis from the PathStrategy class and is responsible for generating the depth first sea..." alt="" coords="9,155,108,181"/>
+<area shape="rect" id="node2" href="$classPathStrategy.html" title="this class inhertis from the IStrategy class and is represents a movement strategy where the entity s..." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$classIStrategy.html" title="Strategy interface." alt="" coords="18,5,99,32"/>
+</map>

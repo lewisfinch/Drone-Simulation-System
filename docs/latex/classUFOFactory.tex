@@ -1,0 +1,71 @@
+\hypertarget{classUFOFactory}{}\doxysection{U\+F\+O\+Factory Class Reference}
+\label{classUFOFactory}\index{UFOFactory@{UFOFactory}}
+
+
+\mbox{\hyperlink{classUFO}{U\+FO}} Factory to produce \mbox{\hyperlink{classUFO}{U\+FO}} class.  
+
+
+
+
+{\ttfamily \#include $<$U\+F\+O\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for U\+F\+O\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classUFOFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for U\+F\+O\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classUFOFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classUFOFactory_a3b5b6d64f22218e96559bced27f30e86}\label{classUFOFactory_a3b5b6d64f22218e96559bced27f30e86}} 
+virtual \mbox{\hyperlink{classUFOFactory_a3b5b6d64f22218e96559bced27f30e86}{$\sim$\+U\+F\+O\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classUFOFactory}{U\+F\+O\+Factory}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classUFOFactory_a38d75adc7f3aaaebfcc5c17317c64348}{Create\+Entity}} (Json\+Object \&entity)
+\begin{DoxyCompactList}\small\item\em Creates entity using the given J\+S\+ON object, if possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classUFO}{U\+FO}} Factory to produce \mbox{\hyperlink{classUFO}{U\+FO}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUFOFactory_a38d75adc7f3aaaebfcc5c17317c64348}\label{classUFOFactory_a38d75adc7f3aaaebfcc5c17317c64348}} 
+\index{UFOFactory@{UFOFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!UFOFactory@{UFOFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ U\+F\+O\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Creates entity using the given J\+S\+ON object, if possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & -\/ Json\+Object to be used to create the new entity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity that was created if it was created successfully, or a nullpointer if creation failed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{I\+Entity\+Factory}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/include/U\+F\+O\+Factory.\+h\item 
+/home/zhai0041/3081\+W/nwest/\+Team-\/001-\/20-\/homework4/libs/transit/src/U\+F\+O\+Factory.\+cc\end{DoxyCompactItemize}
