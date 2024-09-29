@@ -1,12 +1,4 @@
-# Homework4 Write Up
-## Team Number
- - Team-001-20
-
-## Member Names and x500
- - Yicheng Zhai zhai0041
- - Junyuan Wang wang9747
- - Jiatan Huang huan2460
- - Ziyue Zhuang zhuan203
+# Drone Simulation System
 
 ## What is the project about?
 
