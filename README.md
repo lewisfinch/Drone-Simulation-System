@@ -48,11 +48,11 @@ The simulation starts in a mission-less state, where a standby drone spawns on t
 
 ## New Feature Table
 
-|  Feature Name   |
-|:---------------:|
-| Drone's Battery |
-|       UFO       |
-|  Notification   |
+|      Feature Name      |
+|:----------------------:|
+| Drone's Battery System |
+|   UFO Deletion System  |
+|   Notification System  |
 
 
 ### What does it do?
