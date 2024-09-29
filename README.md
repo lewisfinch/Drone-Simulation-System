@@ -1,5 +1,3 @@
-# Drone Simulation System
-
 ## What is the project about?
 
 This project is a drone simulation system that consists of a 3D UMN map page and a trip schedule page. Users can schedule their trips on the schedule page, and the drone will pick them up and send them to their destination.
