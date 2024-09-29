@@ -46,13 +46,13 @@ On top right corner, you can change your camera view into locking the entities.
 The simulation starts in a mission-less state, where a standby drone spawns on the map. On the schedule page, you can select a starting point, a destination, and a preferred navigation strategy. When a trip is scheduled, a robot representing the user appears on the map. The drone then flies to pick up the user and transports them to the destination using the selected strategy. In case of multiple scheduled trips, the drone prioritizes the closest user. Drones have limited power and constantly monitor their power level. They autonomously navigate to the nearest charging station on the map to recharge at the appropriate time. Detailed information about the drone's power level and scheduled trips is displayed on the notification bar within the map page. Additionally, the system includes a Purge function that, when triggered, creates a UFO that engulfs and removes all entities present on the map.
 
 
-## New Feature Contribution Table
+## New Feature Table
 
-|  Feature Name   | Task Contributor(s)         |
-|:---------------:|-----------------------------|
-| Drone's Battery | Yicheng Zhai                |
-|       UFO       | Junyuan Wang                |
-|  Notification   | Jiatan Huang & Ziyue Zhuang |
+|  Feature Name   |
+|:---------------:|
+| Drone's Battery |
+|       UFO       |
+|  Notification   |
 
 
 ### What does it do?
